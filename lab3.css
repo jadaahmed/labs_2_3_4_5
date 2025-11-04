@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #ffc1cc, #ff9ec4);
+}
+
+.calculator {
+  background: #ffe4ec;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.559);
+  width: 320px;
+}
+
+.display input {
+  width: 100%;
+  height: 60px;
+  border: none;
+  background: #fff0f5;
+  border-radius: 12px;
+  font-size: 1.8rem;
+  text-align: right;
+  padding: 10px;
+  color: #d63384;
+  outline: none;
+  margin-bottom: 15px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.btn {
+  height: 60px;
+  border: none;
+  border-radius: 12px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  background: #ffcce0;
+  color: #d63384;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+  background: #ffb6c1;
+  transform: scale(1.05);
+}
+
+.operator {
+  background: #ff85a2;
+  color: white;
+}
+
+.operator:hover {
+  background: #ff668a;
+}
+
+.equal {
+  background: #ff5c8d;
+  color: white;
+  grid-column: span 1;
+}
+
+.equal:hover {
+  background: #ff3b7a;
+}
+
+.zero {
+  grid-column: span 2;
+}
