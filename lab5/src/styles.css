@@ -1,0 +1,48 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  background-color: #ffb5df;
+}
+
+div {
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+button {
+  background-color: #f8c1dd;
+  border: none;
+  color: white;
+  padding: 8px 12px;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #9e6c85;
+}
+.form input,
+.form textarea {
+  width: 100%;
+  max-width: 300px;
+  padding: 10px 12px;
+  margin: 10px auto;
+
+  font-size: 16px;
+  color: white;
+  border: 2px solid #f8c1dd;
+  background-color: #f8c1dd;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+li {
+  list-style: none;
+}
